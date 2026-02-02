@@ -1,0 +1,7 @@
+aws configure
+
+aws s3 ls
+
+aws s3 ls s3://wokkey-staging-web-assets
+
+aws s3 ls s3://wokkey-staging-web-assets --recursive
